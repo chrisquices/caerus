@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="public/assets/backend/imgs/logo-big.png" alt="Logo" height="70">
+    <img src="logo-2.png" alt="Logo" height="70">
   </a>
 </div>
 
@@ -64,7 +64,7 @@
 
 1. Run migrations
    ```
-   php artisan migrate --seed
+   php artisan migrate:fresh --seed
    ```
 
    This will seed the database with demo users with the following credentials
@@ -86,6 +86,11 @@
     ```
     /caerus/database/seeders/DatabaseSeeder.php
     ```
+
+1. Link Valet
+   ```
+   valet link
+   ```
 
 ## Usage
 
