@@ -1,10 +1,4 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="#">
-    <img src="logo-2.png" alt="Logo" height="70">
-  </a>
-</div>
+![Alt text](logo-2.svg)
 
 ## Built With
 
@@ -31,77 +25,96 @@
 
 ## Installation
 
-1. Download or clone the repository (zip download recommended)
-    ```
-    git clone https://github.com/rosphrethic/caerus.git
-    ```
+Download or clone the repository
+```
+git clone https://bitbucket.org/rosphrethic/caerus.git
+```
 
-1. Install packages
-   ```
-   composer install
-   ```
+Install packages
+```
+composer install
+```
 
-1. Create your environment file
-   ```
-   cp .env.example .env
-   ```
+Create your environment file
+```
+cp .env.example .env
+```
 
-1. Generate project key
-   ```
-   php artisan key:generate
-   ```
+Generate project key
+```
+php artisan key:generate
+```
 
-1. Create storage folder link
-   ```
-   php artisan storage:link
-   ```
+Create storage folder link
+```
+php artisan storage:link
+```
 
-1. Configure your environment file, do not forget the following variables
-    ```
-    APP_NAME=Caerus
-    APP_URL=http://caerus.test
-    ```
+Configure your environment file, do not forget the following variables
+```
+APP_NAME=Caerus
+APP_URL=http://caerus.test
+```
 
-1. Run migrations
-   ```
-   php artisan migrate:fresh --seed
-   ```
+Run migrations
+```
+php artisan migrate:fresh --seed
+```
 
-   This will seed the database with demo users with the following credentials
-   ```
-   Frontend Candidate User
-   email: democandidate@caerus.com
-   password: password
-   
-   Backend Administrator User
-   email: admin@caerus.com
-   password: password
-   
-   Backend Company User  
-   email: bancobasa@caerus.com
-   password: password
-   ```
+Link Valet
+```
+valet link
+```
 
-   There are other seeders for the other tables, for more information view:
-    ```
-    /caerus/database/seeders/DatabaseSeeder.php
-    ```
+## Usage
+
+To access the project, go to:
+
+```
+http://caerus.test
+```
+
+Log in with the following credentials:
+```
+Demo User
+email: rosphrethic@caerus.com
+password: password
+```
+This will seed the database with demo users with the following credentials
+```
+Frontend Candidate User
+email: democandidate@caerus.com
+password: password
+
+Backend Administrator User
+email: admin@caerus.com
+password: password
+
+Backend Company User  
+email: bancobasa@caerus.com
+password: password
+```
+
+There are other seeders for the other tables, for more information view:
+```
+/caerus/database/seeders/DatabaseSeeder.php
+```
 
 1. Link Valet
-   ```
-   valet link
-   ```
+```
+valet link
+```
 
 ## Usage
 
 To access the frontend, go to:
 
-   ```
-   http://caerus.test
-   ```
+```
+http://caerus.test
+```
 
 To access the backend, go to:
 
-   ```
-   http://caerus.test/backend
-   ```
+```
+http://caerus.test/backend
+```
