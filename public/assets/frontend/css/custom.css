@@ -1,0 +1,106 @@
+.swal2-container {
+    width: 500px !important;
+}
+
+.header .main-header .header-right {
+    min-width: 300px !important;
+}
+
+.image-box {
+    min-width: unset !important;
+    padding-right: 15px;
+}
+
+.image-box > img, .similar-job-img img {
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 7px !important;
+}
+
+.image-compay {
+    width: 90px !important;
+    height: 90px !important;
+}
+
+.view-type img, .similar-job-img {
+    width: 39px !important;
+    height: 39px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.card-grid-2 .card-grid-2-image-left {
+    padding: 20px 20px 15px 20px !important;
+}
+
+.card-grid-2 .card-block-info {
+    padding: 5px 20px 20px 20px;
+}
+
+.text-apply-now:hover {
+    color: white !important;
+}
+
+.card-grid-2 .card-grid-2-image-rd.online figure::before {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    bottom: 13px;
+    right: 9px;
+    background: #00c070;
+    display: none !important;
+}
+
+.card-grid-2 .card-grid-2-image-rd figure img {
+}
+
+.text-profession {
+    display: inline-block !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    color: #A0ABB8 !important;
+}
+
+.custom-search-container {
+    margin-top: -2px;
+}
+
+.custom-search {
+    border: 0 !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    height: 20px !important;
+    font-weight: 500 !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    letter-spacing: 0.5px;
+    padding-right: 5px !important;
+}
+
+.content-page .card-grid-2 .card-block-info {
+    padding: 0px 20px 20px 20px;
+}
+
+.card-briefcase, .card-time {
+    /*font-size: 12px !important;*/
+}
+
+.width-100p {
+    width: 100% !important;
+    display: unset !important;
+}
+
+@media (max-width: 600px) {
+    .banner-hero.banner-single::after {
+        background: unset !important;
+    }
+
+    .banner-hero.banner-single::before {
+        background: unset !important;
+    }
+}
+
+

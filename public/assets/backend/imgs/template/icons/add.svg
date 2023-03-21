@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 288" width="288" height="288">
+	<title>icon-list-selected-svg</title>
+	<defs>
+		<image  width="228" height="228" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOQAAADkBAMAAAB6eZW+AAAAAXNSR0IB2cksfwAAAC1QTFRFAAAAPGX1AAAAPGX1QWn0P2j0QWj0QGj0P2f0Pmb1PGX0PGX1Pmf1PWb1PWX1V4RogAAAAA90Uk5TAP8BAP/////////M////0XLtrwAAAeBJREFUeJzt3cFtwjAYxXGqLhBjKqAFpI4QdYIeqs7BiXNGYARGYISO0BHYCPI5Dg7kVn2PQ//v4DiR4KcoBN+eJ5MiwS2T8fiBl0zlYhjc6POHxVsMITlX0l/szJ58V5CxJGuFmG4zkxrRzI6s86UvH2mXJ7Enuwt7H7D86kzW6fTTTwxhmQ6xI9NZ4ymGcLTxLZG1ncx9xRB+bUzkj81P3uTMxmikt5VzsLEln1Tkaki+KsxtO1R50TooyHlJzhRiF8HSXGSfSHuUW6Er/MFesmmHykjlo7yQSs1WDjF57EnHhfI+UyMbJRmMPOpJWeZ6cqYnF5CQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQ/4B8QNXXtdDsJHWNbPTkSU9KkxocJY2jbfY96V5XW6aSVmMuCtK1efgm2prTpiBXQje35DYKbN0OVSaXCrIv5pU1Hqf+1mvJ8tqftNciFu3VjbdoL2VHpo5uUW3toBZ84Wulf5s4LD93fZxNOtxWvPvd50ue3BfZb3ajn/hjvvtZlNf1Tx+7KYHGjA/cYEK0cUcY2aNELzoXhFdjoic6AM9i587+Q6NIcwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<path id="Layer" class="s0" d="m15.2 45.5c0-16.8 13.5-30.3 30.3-30.3h166.7c16.8 0 30.3 13.5 30.3 30.3v166.7c0 16.8-13.5 30.3-30.3 30.3h-166.7c-16.8 0-30.3-13.5-30.3-30.3z"/>
+			<use id="Layer" href="#img1" x="15" y="15"/>
+		</g>
+		<path id="Layer" class="s0" d="m128.8 181.9c-4.1 0-7.5-3.4-7.5-7.6v-90.9c0-4.2 3.4-7.6 7.5-7.6 4.2 0 7.6 3.4 7.6 7.6v90.9c0 4.2-3.4 7.6-7.6 7.6z"/>
+		<path id="Layer" class="s0" d="m76.8 126.3c0-4.2 3.4-7.6 7.6-7.6h90.9c4.2 0 7.6 3.4 7.6 7.6 0 4.2-3.4 7.6-7.6 7.6h-90.9c-4.2 0-7.6-3.4-7.6-7.6z"/>
+	</g>
+</svg>

@@ -1,0 +1,204 @@
+.swal2-container {
+    width: 500px !important;
+}
+
+.image-box {
+    min-width: unset !important;
+    padding-right: 15px;
+}
+
+.image-box > img {
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 7px;
+}
+
+.view-type img {
+    width: 39px !important;
+    height: 39px !important;
+}
+
+.pager-prev-disabled:hover {
+    background: url(../imgs/template/icons/page-prev.svg) no-repeat center !important;
+}
+
+.pager-next-disabled:hover {
+    background: url(../imgs/template/icons/page-next.svg) no-repeat center !important;
+}
+
+.paginations .pager li a.active {
+    color: #3c65f5 !important;
+}
+
+.card-grid-2 .card-grid-2-image-left .right-info .name-job {
+    font-size: 16px !important;
+}
+
+.card-grid-2 .card-grid-2-image-left {
+    padding: 20px 20px 15px 20px !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.btn-add {
+    height: 30px !important;
+    line-height: 2px;
+}
+
+.custom-search-container {
+    margin-top: -2px;
+}
+
+.custom-search {
+    border: 0 !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    height: 20px !important;
+    font-weight: 500 !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    letter-spacing: 0.5px;
+    padding-right: 5px !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #f2f4fa !important;
+}
+
+th, td {
+    padding: 13px 10px !important;
+}
+
+.table > :not(:last-child) > :last-child > * {
+    border-bottom: 0 !important;
+    border-bottom-color: #E0E6F7 !important;
+}
+
+.btn-sm {
+    padding: 0.15rem 0.3rem 0.25rem 0.3rem;
+    border-radius: 0.2rem;
+    width: 25px !important;
+    height: 25px !important;
+    margin-top: -1.5px;
+}
+
+.btn-sm-long {
+    padding: 0.25rem 0.50rem 0.25rem 0.25rem;
+    border-radius: 0.2rem;
+    color: white !important;
+    font-size: 12px !important;
+}
+
+.btn-sm-long i {
+    color: white !important;
+}
+
+.btn-sm i {
+    font-size: 12px;
+}
+
+.btn-actions {
+    width: 30px !important;
+}
+
+.is_active {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.badge {
+    padding: 0.55em 0.8em;
+    font-weight: 600;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    width: 80px !important;
+    height: 25px !important;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #3C65F5;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545 !important;
+}
+
+.badge-info {
+    background-color: #0dcaf0 !important;
+}
+
+.mini-fa {
+    font-size: 12px !important;
+}
+
+.photo-placeholder, .banner-placeholder {
+    border-radius: 10px;
+}
+
+.validation-text {
+    font-size: 12px;
+}
+
+.box-profile-image {
+    margin-top: 0px;
+}
+
+.card-grid-2 .card-block-info {
+    padding: 5px 20px 20px 20px;
+}
+
+table.dataTable.no-footer {
+    border-bottom: 0 !important;
+}
+
+th {
+    color: #4F5E64 !important;
+}
+
+
+@media screen and (max-width: 800px) {
+    .hide-on-mobile {
+        display: none !important;
+    }
+}
+
+.sub-breadcrumb {
+    line-height: 1.8 !important;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #f2f4fa !important;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid #dee2e6;
+}
+
+.card-briefcase {
+    font-size: 12px;
+    color: #A0ABB8;
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    background: url(../imgs/template/icons/briefcase.svg) no-repeat 0px 6px;
+}
+
+.card-time {
+    font-size: 12px;
+    color: #A0ABB8;
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    background: url(../imgs/template/icons/time.svg) no-repeat 0px 5px;
+}
