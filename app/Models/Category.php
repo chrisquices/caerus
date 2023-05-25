@@ -21,7 +21,7 @@ class Category extends Model {
 			return config('app.url') . Storage::url($this->photo);
 		}
 
-		return asset('backend/assets/imgs/avatar/ava_1.png');
+		return asset('assets/backend/imgs/avatar/ava_1.png');
 	}
 
 }

@@ -34,8 +34,6 @@ class CompanySeeder extends Seeder {
 				'telephone'   => '(021) 328 5542',
 				'address'     => 'Tte. 1ro. Roque Cabrera Haedo, Asunción 1403',
 				'website'     => 'https://www.opentech.com.py',
-				'photo'       => 'companies/opentechnologies-photo.jpg',
-				'banner'      => 'companies/opentechnologies-banner.jpg',
 				'is_active'   => 1,
 				'created_at'  => now(),
 				'updated_at'  => now(),
@@ -49,8 +47,6 @@ class CompanySeeder extends Seeder {
 				'telephone'   => '(021) 617 1000',
 				'address'     => 'Shopping del Sol, Asunción',
 				'website'     => 'https://www.itau.com.py',
-				'photo'       => 'companies/bancoitau-photo.jpg',
-				'banner'      => 'companies/bancoitau-banner.jpg',
 				'is_active'   => 1,
 				'created_at'  => now(),
 				'updated_at'  => now(),
@@ -64,8 +60,6 @@ class CompanySeeder extends Seeder {
 				'telephone'   => '(021) 618 7070',
 				'address'     => 'Shopping del Sol, Asunción',
 				'website'     => 'https://www.itau.com.py',
-				'photo'       => 'companies/cocacola-photo.jpg',
-				'banner'      => 'companies/cocacola-banner.jpg',
 				'is_active'   => 1,
 				'created_at'  => now(),
 				'updated_at'  => now(),
@@ -79,8 +73,6 @@ class CompanySeeder extends Seeder {
 				'telephone'   => '(021) 617 1000',
 				'address'     => 'Aviadores del Chaco e/San Martín - Asunción',
 				'website'     => 'https://www.itau.com.py',
-				'photo'       => 'companies/bancobasa-photo.jpg',
-				'banner'      => 'companies/bancobasa-banner.jpg',
 				'is_active'   => 1,
 				'created_at'  => now(),
 				'updated_at'  => now(),
@@ -94,8 +86,6 @@ class CompanySeeder extends Seeder {
 				'telephone'   => '(021) 617 1000',
 				'address'     => 'Shopping del Sol, Asunción',
 				'website'     => 'https://twitch.tv',
-				'photo'       => 'companies/twitch-photo.jpg',
-				'banner'      => 'companies/twitch-banner.jpg',
 				'is_active'   => 1,
 				'created_at'  => now(),
 				'updated_at'  => now(),
@@ -109,8 +99,6 @@ class CompanySeeder extends Seeder {
 				'telephone'   => '(021) 617 1000',
 				'address'     => '1600 Amphitheatre Parkway, Mountain View, California',
 				'website'     => 'https://google.com',
-				'photo'       => 'companies/google-photo.jpg',
-				'banner'      => 'companies/google-banner.jpg',
 				'is_active'   => 1,
 				'created_at'  => now(),
 				'updated_at'  => now(),
@@ -124,8 +112,6 @@ class CompanySeeder extends Seeder {
 				'telephone'   => '(021) 617 1000',
 				'address'     => '1 Hacker Way, Menlo Park, CA 94025',
 				'website'     => 'https://instagram.com',
-				'photo'       => 'companies/instagram-photo.jpg',
-				'banner'      => 'companies/instagram-banner.jpg',
 				'is_active'   => 1,
 				'created_at'  => now(),
 				'updated_at'  => now(),
@@ -139,8 +125,6 @@ class CompanySeeder extends Seeder {
 				'telephone'   => '(021) 617 1000',
 				'address'     => '1 Hacker Way, Menlo Park, CA 94025',
 				'website'     => 'https://twitter.com',
-				'photo'       => 'companies/twitter-photo.jpg',
-				'banner'      => 'companies/twitter-banner.jpg',
 				'is_active'   => 1,
 				'created_at'  => now(),
 				'updated_at'  => now(),
@@ -157,8 +141,6 @@ class CompanySeeder extends Seeder {
 			$new_company->telephone = $company['telephone'];
 			$new_company->address = $company['address'];
 			$new_company->website = $company['website'];
-			$new_company->photo = $company['photo'];
-			$new_company->banner = $company['banner'];
 			$new_company->is_active = $company['is_active'];
 			$new_company->save();
 		}

@@ -26,50 +26,39 @@ class CategorySeeder extends Seeder {
 		$categories = [
 			[
 				'name'  => 'Tecnología',
-				'photo' => 'categories/informatica.svg',
 			],
 			[
 				'name'  => 'Atención al Cliente',
-				'photo' => 'categories/atencion.svg',
 			],
 			[
 				'name'  => 'Marketing',
-				'photo' => 'categories/marketing.svg',
 			],
 			[
 				'name'  => 'Bebidas',
-				'photo' => 'categories/administracion.svg',
 			],
 			[
 				'name'  => 'Administración',
-				'photo' => 'categories/administracion.svg',
 			],
 			[
 				'name'  => 'Seguridad',
-				'photo' => 'categories/seguridad.svg',
 			],
 			[
 				'name'  => 'Electricidad',
-				'photo' => 'categories/electricidad.svg',
 			],
 			[
 				'name'  => 'Ventas',
-				'photo' => 'categories/ventas.svg',
 			],
 			[
 				'name'  => 'Finanzas',
-				'photo' => 'categories/finanzas.svg',
 			],
 			[
 				'name'  => 'Entretenimiento',
-				'photo' => 'categories/informatica.svg',
 			],
 		];
 
 		foreach ($categories as $category) {
 			$new_category = new Category();
 			$new_category->name = $category['name'];
-			$new_category->photo = $category['photo'];
 			$new_category->save();
 		}
 

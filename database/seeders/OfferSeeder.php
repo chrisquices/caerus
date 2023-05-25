@@ -33,7 +33,7 @@ class OfferSeeder extends Seeder {
 
 		$salaries = [null, 2500000, 3000000, 4000000, 4500000, 5000000, 6000000, 7000000, 8000000, 9000000];
 
-		for ($i = 0; $i < 1000; $i++) {
+		for ($i = 0; $i < 200; $i++) {
 			$offer = new Offer();
 			$offer->company_id = fake()->randomElement([1, 2, 3, 4, 5, 6, 7, 8]);
 			$offer->city_id = City::all()->random(1)->first()->id;
